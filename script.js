@@ -2,9 +2,9 @@ function roll(d) {
     let result=Math.floor(Math.random()*d)+1;
     if (d==2){
         if (result==1){
-            return "head";
+            return "heads";
         }else{
-            return "tail";
+            return "tails";
         }
     }else{
         return result.toString();
